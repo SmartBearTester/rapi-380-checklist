@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="" path="Ran" id="e5091ceb-47bd-4550-8b2a-6ea779a93fdd" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="" path="Ran" id="e5091ceb-47bd-4550-8b2a-6ea779a93fdd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="e5091ceb-47bd-4550-8b2a-6ea779a93fddfileName">Ran</con:setting>
   </con:settings>
@@ -9,15 +9,19 @@
     <con:parameters>
       <con:parameter>
         <con:name>x</con:name>
-        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:value xsi:nil="true"/>
         <con:style>QUERY</con:style>
         <con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:integer</con:type>
-        <con:default xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:default xsi:nil="true"/>
       </con:parameter>
     </con:parameters>
     <con:request name="Request 1" id="fbecef69-db21-41d4-9c68-a222784025ed" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

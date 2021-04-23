@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="" path="HelloWorld" id="18c611c1-a84f-44ad-a884-4398123278d1" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="" path="HelloWorld" id="18c611c1-a84f-44ad-a884-4398123278d1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="18c611c1-a84f-44ad-a884-4398123278d1fileName">HelloWorld</con:setting>
   </con:settings>
@@ -10,6 +10,10 @@
     <con:request name="Request 1" id="dbb5fe8b-1df1-4398-8321-74015013b110" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
