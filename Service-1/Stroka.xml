@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="Stroka" id="ebed390b-ebe2-4cdf-a08f-5c88e8acece5" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ebed390b-ebe2-4cdf-a08f-5c88e8acece5fileName">Stroka</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="6c21f7e6-0a8b-44a1-a33a-b2cf0d4a32aa" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter>
+        <con:name>x</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:style>QUERY</con:style>
+        <con:default xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+    </con:parameters>
+    <con:request name="Request 1" id="0395a035-165b-462a-8e4e-6eedfc7fa481" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

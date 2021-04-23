@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="testComplexClass" id="79343cea-5de1-4f4c-9449-7ebe6d92aec7" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="79343cea-5de1-4f4c-9449-7ebe6d92aec7fileName">testComplexClass</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="17a34570-0c88-4d84-839c-7399d2151458" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="5635cd84-71b2-4e43-bc13-6ef16cddbf57" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

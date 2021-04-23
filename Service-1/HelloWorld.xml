@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="HelloWorld" id="18c611c1-a84f-44ad-a884-4398123278d1" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="18c611c1-a84f-44ad-a884-4398123278d1fileName">HelloWorld</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="71cf3c96-9f14-4bf2-92a9-7479f334636d" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="dbb5fe8b-1df1-4398-8321-74015013b110" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

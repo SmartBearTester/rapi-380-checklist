@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="Vse" id="d6dc4a3d-65db-4844-9b95-82e187d39e07" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="d6dc4a3d-65db-4844-9b95-82e187d39e07fileName">Vse</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="027c612e-bca3-4b3e-8608-47a66ba42d4c" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter>
+        <con:name>x</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:style>QUERY</con:style>
+        <con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:integer</con:type>
+        <con:default xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter>
+        <con:name>y</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:style>QUERY</con:style>
+        <con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:integer</con:type>
+        <con:default xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+      <con:parameter>
+        <con:name>z</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:style>QUERY</con:style>
+        <con:default xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+    </con:parameters>
+    <con:request name="Request 1" id="79fca5f0-6318-436b-bd76-9a826bac869e" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
