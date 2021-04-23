@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="" path="testDecimal" id="76ee86d6-3458-47b1-a64f-90dc8689affc" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="" path="testDecimal" id="76ee86d6-3458-47b1-a64f-90dc8689affc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="76ee86d6-3458-47b1-a64f-90dc8689affcfileName">testDecimal</con:setting>
   </con:settings>
@@ -9,15 +9,19 @@
     <con:parameters>
       <con:parameter>
         <con:name>t</con:name>
-        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:value xsi:nil="true"/>
         <con:style>QUERY</con:style>
         <con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:float</con:type>
-        <con:default xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:default xsi:nil="true"/>
       </con:parameter>
     </con:parameters>
     <con:request name="Request 1" id="df3b37b7-c561-45ce-ad86-0697ea2f3781" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:interface xsi:type="con:RestService" id="3b56be0e-5b45-4360-b2a7-cbcd84cfef02" wadlVersion="http://research.sun.com/wadl/2006/10" name="Service 1" type="rest" definitionUrl="http://rapis02.aqa.com.ru/wcfrest/service.wadl" basePath="/WCFREST/Service.svc/" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<con:interface xsi:type="con:RestService" id="3b56be0e-5b45-4360-b2a7-cbcd84cfef02" wadlVersion="http://research.sun.com/wadl/2006/10" name="Service 1" type="rest" definitionUrl="http://rapis02.aqa.com.ru/wcfrest/service.wadl" basePath="/WCFREST/Service.svc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="3b56be0e-5b45-4360-b2a7-cbcd84cfef02fileName">Service-1</con:setting>
   </con:settings>

@@ -9,6 +9,33 @@
       <script>log.info("test redacted");</script>
     </con:config>
   </con:testStep>
+  <con:testStep type="restrequest" name="REST Request" id="4ac36ed7-ed1b-4cf5-8b7c-f38e2590a6b8">
+    <con:settings/>
+    <con:config service="Service 1" resourcePath="/WCFREST/Service.svc/ConStroka" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="REST Request" id="13dc2ae5-07bc-41b0-a277-b783d04dee8e" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+        <con:request/>
+        <con:assertion type="Valid HTTP Status Codes" id="834b509e-f10c-40d9-acf9-7c317efd200b" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="832f1c0e-d42f-4232-8fc4-a4244f5c096f" name="Response SLA">
+          <con:configuration>
+            <SLA>20000</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>

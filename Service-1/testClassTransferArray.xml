@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="" path="testClassTransferArray" id="dbff8765-bb1f-4248-a5bf-8a5a1bfb152b" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="" path="testClassTransferArray" id="dbff8765-bb1f-4248-a5bf-8a5a1bfb152b" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="dbff8765-bb1f-4248-a5bf-8a5a1bfb152bfileName">testClassTransferArray</con:setting>
   </con:settings>
@@ -10,6 +10,10 @@
     <con:request name="Request 1" id="3291d7fe-c4d5-4039-a780-3e67bf51c721" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
