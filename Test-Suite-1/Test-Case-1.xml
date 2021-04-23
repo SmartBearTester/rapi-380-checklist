@@ -3,6 +3,12 @@
   <con:settings>
     <con:setting id="3242ad22-190f-4799-b26f-e2f29f5979f9fileName">Test-Case-1</con:setting>
   </con:settings>
+  <con:testStep type="groovy" name="Groovy Script" id="ae916cc7-fc62-473a-a89a-e8e80decc6af">
+    <con:settings/>
+    <con:config>
+      <script>log.info("test");</script>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
